@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  QiniuUpLoadDemo
+//
+//  Created by 王忠诚 on 2017/5/15.
+//  Copyright © 2017年 王忠诚. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define COLOR(_r_,_g_,_b_) [UIColor colorWithRed:_r_/255.0 green:_g_/255.0 blue:_b_/255.0 alpha:1.0]
+
+#define kNotificationSendName @"kNotificationSendName"
+
+
+#import "QiniuUpLoad.h"
+
+#endif /* PrefixHeader_pch */

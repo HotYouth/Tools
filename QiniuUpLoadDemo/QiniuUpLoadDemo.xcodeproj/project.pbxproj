@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FC713FE4C9DFE4FD429AB5B /* libPods-QiniuUpLoadDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7790CB2A12E4508C8378C29 /* libPods-QiniuUpLoadDemo.a */; };
+		D1BBEE591EC9442400F2557D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEE581EC9442400F2557D /* main.m */; };
+		D1BBEE5C1EC9442400F2557D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEE5B1EC9442400F2557D /* AppDelegate.m */; };
+		D1BBEE5F1EC9442400F2557D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEE5E1EC9442400F2557D /* ViewController.m */; };
+		D1BBEE621EC9442400F2557D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BBEE601EC9442400F2557D /* Main.storyboard */; };
+		D1BBEE641EC9442400F2557D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BBEE631EC9442400F2557D /* Assets.xcassets */; };
+		D1BBEE671EC9442400F2557D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BBEE651EC9442400F2557D /* LaunchScreen.storyboard */; };
+		D1BBEE721EC9442400F2557D /* QiniuUpLoadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEE711EC9442400F2557D /* QiniuUpLoadDemoTests.m */; };
+		D1BBEE7D1EC9442400F2557D /* QiniuUpLoadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEE7C1EC9442400F2557D /* QiniuUpLoadDemoUITests.m */; };
+		D1BBEE8E1EC94CB800F2557D /* DCAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEE8D1EC94CB800F2557D /* DCAlbumVC.m */; };
+		D1BBEE911EC94CCA00F2557D /* DCCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEE901EC94CCA00F2557D /* DCCameraVC.m */; };
+		D1BBEE971EC94ED100F2557D /* AlbumImageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEE941EC94ED100F2557D /* AlbumImageListViewController.m */; };
+		D1BBEE981EC94ED100F2557D /* AlbumImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEE961EC94ED100F2557D /* AlbumImgViewController.m */; };
+		D1BBEEB21EC984FB00F2557D /* DCAddWaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEE9B1EC984FB00F2557D /* DCAddWaterMark.m */; };
+		D1BBEEB31EC984FB00F2557D /* DCAnimationRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEE9D1EC984FB00F2557D /* DCAnimationRecordView.m */; };
+		D1BBEEB41EC984FB00F2557D /* DCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEE9F1EC984FB00F2557D /* DCLocationManager.m */; };
+		D1BBEEB51EC984FB00F2557D /* DCPhotoPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEA11EC984FB00F2557D /* DCPhotoPreview.m */; };
+		D1BBEEB61EC984FB00F2557D /* DCPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEA31EC984FB00F2557D /* DCPlayerView.m */; };
+		D1BBEEB71EC984FB00F2557D /* DCVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEA51EC984FB00F2557D /* DCVideoModel.m */; };
+		D1BBEEB81EC984FB00F2557D /* DCVideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEA71EC984FB00F2557D /* DCVideoRecorder.m */; };
+		D1BBEEB91EC984FB00F2557D /* DCVideoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEA91EC984FB00F2557D /* DCVideoUtil.m */; };
+		D1BBEEBA1EC984FB00F2557D /* DCViedoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEAB1EC984FB00F2557D /* DCViedoView.m */; };
+		D1BBEEBB1EC984FB00F2557D /* DCWaterMarkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEAD1EC984FB00F2557D /* DCWaterMarkManager.m */; };
+		D1BBEEBC1EC984FB00F2557D /* NSString+DCMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEAF1EC984FB00F2557D /* NSString+DCMD5.m */; };
+		D1BBEEBD1EC984FB00F2557D /* SDAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEB11EC984FB00F2557D /* SDAVAssetExportSession.m */; };
+		D1BBEEC01EC98E4800F2557D /* DCThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEBF1EC98E4700F2557D /* DCThumbnailView.m */; };
+		D1BBEEC31EC9989D00F2557D /* DCThumbnailListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEC21EC9989D00F2557D /* DCThumbnailListView.m */; };
+		D1BBEEC61EC9D52500F2557D /* DCOriginalListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEC51EC9D52500F2557D /* DCOriginalListView.m */; };
+		D1BBEEC91ECAD46500F2557D /* DCNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEEC81ECAD46500F2557D /* DCNetWorkManager.m */; };
+		D1BBEECC1ECAE3D900F2557D /* DCRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BBEECB1ECAE3D900F2557D /* DCRequestTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1BBEE6E1EC9442400F2557D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1BBEE4C1EC9442400F2557D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1BBEE531EC9442400F2557D;
+			remoteInfo = QiniuUpLoadDemo;
+		};
+		D1BBEE791EC9442400F2557D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1BBEE4C1EC9442400F2557D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1BBEE531EC9442400F2557D;
+			remoteInfo = QiniuUpLoadDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0011BE0BE0324FA958028BC9 /* Pods-QiniuUpLoadDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiniuUpLoadDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiniuUpLoadDemo/Pods-QiniuUpLoadDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C7790CB2A12E4508C8378C29 /* libPods-QiniuUpLoadDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QiniuUpLoadDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BBEE541EC9442400F2557D /* QiniuUpLoadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiniuUpLoadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BBEE581EC9442400F2557D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1BBEE5A1EC9442400F2557D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1BBEE5B1EC9442400F2557D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1BBEE5D1EC9442400F2557D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1BBEE5E1EC9442400F2557D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1BBEE611EC9442400F2557D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1BBEE631EC9442400F2557D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1BBEE661EC9442400F2557D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1BBEE681EC9442400F2557D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BBEE6D1EC9442400F2557D /* QiniuUpLoadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiniuUpLoadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BBEE711EC9442400F2557D /* QiniuUpLoadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiniuUpLoadDemoTests.m; sourceTree = "<group>"; };
+		D1BBEE731EC9442400F2557D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BBEE781EC9442400F2557D /* QiniuUpLoadDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiniuUpLoadDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BBEE7C1EC9442400F2557D /* QiniuUpLoadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiniuUpLoadDemoUITests.m; sourceTree = "<group>"; };
+		D1BBEE7E1EC9442400F2557D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BBEE8A1EC9467A00F2557D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D1BBEE8B1EC9469400F2557D /* QiniuUpLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuUpLoad.h; sourceTree = "<group>"; };
+		D1BBEE8C1EC94CB800F2557D /* DCAlbumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAlbumVC.h; sourceTree = "<group>"; };
+		D1BBEE8D1EC94CB800F2557D /* DCAlbumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAlbumVC.m; sourceTree = "<group>"; };
+		D1BBEE8F1EC94CCA00F2557D /* DCCameraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCameraVC.h; sourceTree = "<group>"; };
+		D1BBEE901EC94CCA00F2557D /* DCCameraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCameraVC.m; sourceTree = "<group>"; };
+		D1BBEE931EC94ED100F2557D /* AlbumImageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumImageListViewController.h; sourceTree = "<group>"; };
+		D1BBEE941EC94ED100F2557D /* AlbumImageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumImageListViewController.m; sourceTree = "<group>"; };
+		D1BBEE951EC94ED100F2557D /* AlbumImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumImgViewController.h; sourceTree = "<group>"; };
+		D1BBEE961EC94ED100F2557D /* AlbumImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumImgViewController.m; sourceTree = "<group>"; };
+		D1BBEE9A1EC984FB00F2557D /* DCAddWaterMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAddWaterMark.h; sourceTree = "<group>"; };
+		D1BBEE9B1EC984FB00F2557D /* DCAddWaterMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAddWaterMark.m; sourceTree = "<group>"; };
+		D1BBEE9C1EC984FB00F2557D /* DCAnimationRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAnimationRecordView.h; sourceTree = "<group>"; };
+		D1BBEE9D1EC984FB00F2557D /* DCAnimationRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAnimationRecordView.m; sourceTree = "<group>"; };
+		D1BBEE9E1EC984FB00F2557D /* DCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCLocationManager.h; sourceTree = "<group>"; };
+		D1BBEE9F1EC984FB00F2557D /* DCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCLocationManager.m; sourceTree = "<group>"; };
+		D1BBEEA01EC984FB00F2557D /* DCPhotoPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPhotoPreview.h; sourceTree = "<group>"; };
+		D1BBEEA11EC984FB00F2557D /* DCPhotoPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPhotoPreview.m; sourceTree = "<group>"; };
+		D1BBEEA21EC984FB00F2557D /* DCPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPlayerView.h; sourceTree = "<group>"; };
+		D1BBEEA31EC984FB00F2557D /* DCPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPlayerView.m; sourceTree = "<group>"; };
+		D1BBEEA41EC984FB00F2557D /* DCVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCVideoModel.h; sourceTree = "<group>"; };
+		D1BBEEA51EC984FB00F2557D /* DCVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCVideoModel.m; sourceTree = "<group>"; };
+		D1BBEEA61EC984FB00F2557D /* DCVideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCVideoRecorder.h; sourceTree = "<group>"; };
+		D1BBEEA71EC984FB00F2557D /* DCVideoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCVideoRecorder.m; sourceTree = "<group>"; };
+		D1BBEEA81EC984FB00F2557D /* DCVideoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCVideoUtil.h; sourceTree = "<group>"; };
+		D1BBEEA91EC984FB00F2557D /* DCVideoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCVideoUtil.m; sourceTree = "<group>"; };
+		D1BBEEAA1EC984FB00F2557D /* DCViedoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCViedoView.h; sourceTree = "<group>"; };
+		D1BBEEAB1EC984FB00F2557D /* DCViedoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCViedoView.m; sourceTree = "<group>"; };
+		D1BBEEAC1EC984FB00F2557D /* DCWaterMarkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCWaterMarkManager.h; sourceTree = "<group>"; };
+		D1BBEEAD1EC984FB00F2557D /* DCWaterMarkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCWaterMarkManager.m; sourceTree = "<group>"; };
+		D1BBEEAE1EC984FB00F2557D /* NSString+DCMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DCMD5.h"; sourceTree = "<group>"; };
+		D1BBEEAF1EC984FB00F2557D /* NSString+DCMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DCMD5.m"; sourceTree = "<group>"; };
+		D1BBEEB01EC984FB00F2557D /* SDAVAssetExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAVAssetExportSession.h; sourceTree = "<group>"; };
+		D1BBEEB11EC984FB00F2557D /* SDAVAssetExportSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAVAssetExportSession.m; sourceTree = "<group>"; };
+		D1BBEEBE1EC98E4700F2557D /* DCThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCThumbnailView.h; sourceTree = "<group>"; };
+		D1BBEEBF1EC98E4700F2557D /* DCThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCThumbnailView.m; sourceTree = "<group>"; };
+		D1BBEEC11EC9989D00F2557D /* DCThumbnailListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCThumbnailListView.h; sourceTree = "<group>"; };
+		D1BBEEC21EC9989D00F2557D /* DCThumbnailListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCThumbnailListView.m; sourceTree = "<group>"; };
+		D1BBEEC41EC9D52500F2557D /* DCOriginalListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCOriginalListView.h; sourceTree = "<group>"; };
+		D1BBEEC51EC9D52500F2557D /* DCOriginalListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCOriginalListView.m; sourceTree = "<group>"; };
+		D1BBEEC71ECAD46500F2557D /* DCNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCNetWorkManager.h; sourceTree = "<group>"; };
+		D1BBEEC81ECAD46500F2557D /* DCNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCNetWorkManager.m; sourceTree = "<group>"; };
+		D1BBEECA1ECAE3D900F2557D /* DCRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRequestTool.h; sourceTree = "<group>"; };
+		D1BBEECB1ECAE3D900F2557D /* DCRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRequestTool.m; sourceTree = "<group>"; };
+		EA2D2CC129B2556BDE44066E /* Pods-QiniuUpLoadDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiniuUpLoadDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiniuUpLoadDemo/Pods-QiniuUpLoadDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1BBEE511EC9442400F2557D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC713FE4C9DFE4FD429AB5B /* libPods-QiniuUpLoadDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BBEE6A1EC9442400F2557D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BBEE751EC9442400F2557D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9114B5CC40A537F4B9695BEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0011BE0BE0324FA958028BC9 /* Pods-QiniuUpLoadDemo.debug.xcconfig */,
+				EA2D2CC129B2556BDE44066E /* Pods-QiniuUpLoadDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6F77F72328211BD441CEE2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7790CB2A12E4508C8378C29 /* libPods-QiniuUpLoadDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1BBEE4B1EC9442400F2557D = {
+			isa = PBXGroup;
+			children = (
+				D1BBEE561EC9442400F2557D /* QiniuUpLoadDemo */,
+				D1BBEE701EC9442400F2557D /* QiniuUpLoadDemoTests */,
+				D1BBEE7B1EC9442400F2557D /* QiniuUpLoadDemoUITests */,
+				D1BBEE551EC9442400F2557D /* Products */,
+				9114B5CC40A537F4B9695BEB /* Pods */,
+				A6F77F72328211BD441CEE2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D1BBEE551EC9442400F2557D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1BBEE541EC9442400F2557D /* QiniuUpLoadDemo.app */,
+				D1BBEE6D1EC9442400F2557D /* QiniuUpLoadDemoTests.xctest */,
+				D1BBEE781EC9442400F2557D /* QiniuUpLoadDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1BBEE561EC9442400F2557D /* QiniuUpLoadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D1BBEE5A1EC9442400F2557D /* AppDelegate.h */,
+				D1BBEE5B1EC9442400F2557D /* AppDelegate.m */,
+				D1BBEE5D1EC9442400F2557D /* ViewController.h */,
+				D1BBEE5E1EC9442400F2557D /* ViewController.m */,
+				D1BBEE8C1EC94CB800F2557D /* DCAlbumVC.h */,
+				D1BBEE8D1EC94CB800F2557D /* DCAlbumVC.m */,
+				D1BBEE8F1EC94CCA00F2557D /* DCCameraVC.h */,
+				D1BBEE901EC94CCA00F2557D /* DCCameraVC.m */,
+				D1BBEEC71ECAD46500F2557D /* DCNetWorkManager.h */,
+				D1BBEEC81ECAD46500F2557D /* DCNetWorkManager.m */,
+				D1BBEECA1ECAE3D900F2557D /* DCRequestTool.h */,
+				D1BBEECB1ECAE3D900F2557D /* DCRequestTool.m */,
+				D1BBEE991EC984FB00F2557D /* DCCamera */,
+				D1BBEE921EC94ED100F2557D /* photoSelect */,
+				D1BBEE601EC9442400F2557D /* Main.storyboard */,
+				D1BBEE631EC9442400F2557D /* Assets.xcassets */,
+				D1BBEE651EC9442400F2557D /* LaunchScreen.storyboard */,
+				D1BBEE681EC9442400F2557D /* Info.plist */,
+				D1BBEE571EC9442400F2557D /* Supporting Files */,
+			);
+			path = QiniuUpLoadDemo;
+			sourceTree = "<group>";
+		};
+		D1BBEE571EC9442400F2557D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1BBEE581EC9442400F2557D /* main.m */,
+				D1BBEE8A1EC9467A00F2557D /* PrefixHeader.pch */,
+				D1BBEE8B1EC9469400F2557D /* QiniuUpLoad.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1BBEE701EC9442400F2557D /* QiniuUpLoadDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1BBEE711EC9442400F2557D /* QiniuUpLoadDemoTests.m */,
+				D1BBEE731EC9442400F2557D /* Info.plist */,
+			);
+			path = QiniuUpLoadDemoTests;
+			sourceTree = "<group>";
+		};
+		D1BBEE7B1EC9442400F2557D /* QiniuUpLoadDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1BBEE7C1EC9442400F2557D /* QiniuUpLoadDemoUITests.m */,
+				D1BBEE7E1EC9442400F2557D /* Info.plist */,
+			);
+			path = QiniuUpLoadDemoUITests;
+			sourceTree = "<group>";
+		};
+		D1BBEE921EC94ED100F2557D /* photoSelect */ = {
+			isa = PBXGroup;
+			children = (
+				D1BBEE931EC94ED100F2557D /* AlbumImageListViewController.h */,
+				D1BBEE941EC94ED100F2557D /* AlbumImageListViewController.m */,
+				D1BBEE951EC94ED100F2557D /* AlbumImgViewController.h */,
+				D1BBEE961EC94ED100F2557D /* AlbumImgViewController.m */,
+			);
+			path = photoSelect;
+			sourceTree = "<group>";
+		};
+		D1BBEE991EC984FB00F2557D /* DCCamera */ = {
+			isa = PBXGroup;
+			children = (
+				D1BBEE9A1EC984FB00F2557D /* DCAddWaterMark.h */,
+				D1BBEE9B1EC984FB00F2557D /* DCAddWaterMark.m */,
+				D1BBEE9C1EC984FB00F2557D /* DCAnimationRecordView.h */,
+				D1BBEE9D1EC984FB00F2557D /* DCAnimationRecordView.m */,
+				D1BBEE9E1EC984FB00F2557D /* DCLocationManager.h */,
+				D1BBEE9F1EC984FB00F2557D /* DCLocationManager.m */,
+				D1BBEEA01EC984FB00F2557D /* DCPhotoPreview.h */,
+				D1BBEEA11EC984FB00F2557D /* DCPhotoPreview.m */,
+				D1BBEEA21EC984FB00F2557D /* DCPlayerView.h */,
+				D1BBEEA31EC984FB00F2557D /* DCPlayerView.m */,
+				D1BBEEA41EC984FB00F2557D /* DCVideoModel.h */,
+				D1BBEEA51EC984FB00F2557D /* DCVideoModel.m */,
+				D1BBEEA61EC984FB00F2557D /* DCVideoRecorder.h */,
+				D1BBEEA71EC984FB00F2557D /* DCVideoRecorder.m */,
+				D1BBEEA81EC984FB00F2557D /* DCVideoUtil.h */,
+				D1BBEEA91EC984FB00F2557D /* DCVideoUtil.m */,
+				D1BBEEAA1EC984FB00F2557D /* DCViedoView.h */,
+				D1BBEEAB1EC984FB00F2557D /* DCViedoView.m */,
+				D1BBEEAC1EC984FB00F2557D /* DCWaterMarkManager.h */,
+				D1BBEEAD1EC984FB00F2557D /* DCWaterMarkManager.m */,
+				D1BBEEAE1EC984FB00F2557D /* NSString+DCMD5.h */,
+				D1BBEEAF1EC984FB00F2557D /* NSString+DCMD5.m */,
+				D1BBEEB01EC984FB00F2557D /* SDAVAssetExportSession.h */,
+				D1BBEEB11EC984FB00F2557D /* SDAVAssetExportSession.m */,
+				D1BBEEBE1EC98E4700F2557D /* DCThumbnailView.h */,
+				D1BBEEBF1EC98E4700F2557D /* DCThumbnailView.m */,
+				D1BBEEC11EC9989D00F2557D /* DCThumbnailListView.h */,
+				D1BBEEC21EC9989D00F2557D /* DCThumbnailListView.m */,
+				D1BBEEC41EC9D52500F2557D /* DCOriginalListView.h */,
+				D1BBEEC51EC9D52500F2557D /* DCOriginalListView.m */,
+			);
+			path = DCCamera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1BBEE531EC9442400F2557D /* QiniuUpLoadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1BBEE811EC9442400F2557D /* Build configuration list for PBXNativeTarget "QiniuUpLoadDemo" */;
+			buildPhases = (
+				9903A0C834C6856EB91A6312 /* [CP] Check Pods Manifest.lock */,
+				D1BBEE501EC9442400F2557D /* Sources */,
+				D1BBEE511EC9442400F2557D /* Frameworks */,
+				D1BBEE521EC9442400F2557D /* Resources */,
+				C971676CB5714F7D6810649A /* [CP] Embed Pods Frameworks */,
+				A1AFD8D2EE5906815A316A70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiniuUpLoadDemo;
+			productName = QiniuUpLoadDemo;
+			productReference = D1BBEE541EC9442400F2557D /* QiniuUpLoadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1BBEE6C1EC9442400F2557D /* QiniuUpLoadDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1BBEE841EC9442400F2557D /* Build configuration list for PBXNativeTarget "QiniuUpLoadDemoTests" */;
+			buildPhases = (
+				D1BBEE691EC9442400F2557D /* Sources */,
+				D1BBEE6A1EC9442400F2557D /* Frameworks */,
+				D1BBEE6B1EC9442400F2557D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1BBEE6F1EC9442400F2557D /* PBXTargetDependency */,
+			);
+			name = QiniuUpLoadDemoTests;
+			productName = QiniuUpLoadDemoTests;
+			productReference = D1BBEE6D1EC9442400F2557D /* QiniuUpLoadDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1BBEE771EC9442400F2557D /* QiniuUpLoadDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1BBEE871EC9442400F2557D /* Build configuration list for PBXNativeTarget "QiniuUpLoadDemoUITests" */;
+			buildPhases = (
+				D1BBEE741EC9442400F2557D /* Sources */,
+				D1BBEE751EC9442400F2557D /* Frameworks */,
+				D1BBEE761EC9442400F2557D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1BBEE7A1EC9442400F2557D /* PBXTargetDependency */,
+			);
+			name = QiniuUpLoadDemoUITests;
+			productName = QiniuUpLoadDemoUITests;
+			productReference = D1BBEE781EC9442400F2557D /* QiniuUpLoadDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1BBEE4C1EC9442400F2557D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王忠诚";
+				TargetAttributes = {
+					D1BBEE531EC9442400F2557D = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = J735WF8EB3;
+						ProvisioningStyle = Automatic;
+					};
+					D1BBEE6C1EC9442400F2557D = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1BBEE531EC9442400F2557D;
+					};
+					D1BBEE771EC9442400F2557D = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1BBEE531EC9442400F2557D;
+					};
+				};
+			};
+			buildConfigurationList = D1BBEE4F1EC9442400F2557D /* Build configuration list for PBXProject "QiniuUpLoadDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1BBEE4B1EC9442400F2557D;
+			productRefGroup = D1BBEE551EC9442400F2557D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1BBEE531EC9442400F2557D /* QiniuUpLoadDemo */,
+				D1BBEE6C1EC9442400F2557D /* QiniuUpLoadDemoTests */,
+				D1BBEE771EC9442400F2557D /* QiniuUpLoadDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1BBEE521EC9442400F2557D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BBEE671EC9442400F2557D /* LaunchScreen.storyboard in Resources */,
+				D1BBEE641EC9442400F2557D /* Assets.xcassets in Resources */,
+				D1BBEE621EC9442400F2557D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BBEE6B1EC9442400F2557D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BBEE761EC9442400F2557D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9903A0C834C6856EB91A6312 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1AFD8D2EE5906815A316A70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiniuUpLoadDemo/Pods-QiniuUpLoadDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C971676CB5714F7D6810649A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiniuUpLoadDemo/Pods-QiniuUpLoadDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1BBEE501EC9442400F2557D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BBEE971EC94ED100F2557D /* AlbumImageListViewController.m in Sources */,
+				D1BBEEC91ECAD46500F2557D /* DCNetWorkManager.m in Sources */,
+				D1BBEEBA1EC984FB00F2557D /* DCViedoView.m in Sources */,
+				D1BBEEB21EC984FB00F2557D /* DCAddWaterMark.m in Sources */,
+				D1BBEEB51EC984FB00F2557D /* DCPhotoPreview.m in Sources */,
+				D1BBEEBD1EC984FB00F2557D /* SDAVAssetExportSession.m in Sources */,
+				D1BBEE5F1EC9442400F2557D /* ViewController.m in Sources */,
+				D1BBEEB31EC984FB00F2557D /* DCAnimationRecordView.m in Sources */,
+				D1BBEE981EC94ED100F2557D /* AlbumImgViewController.m in Sources */,
+				D1BBEEB81EC984FB00F2557D /* DCVideoRecorder.m in Sources */,
+				D1BBEEB41EC984FB00F2557D /* DCLocationManager.m in Sources */,
+				D1BBEEC01EC98E4800F2557D /* DCThumbnailView.m in Sources */,
+				D1BBEEB91EC984FB00F2557D /* DCVideoUtil.m in Sources */,
+				D1BBEEC31EC9989D00F2557D /* DCThumbnailListView.m in Sources */,
+				D1BBEE5C1EC9442400F2557D /* AppDelegate.m in Sources */,
+				D1BBEEC61EC9D52500F2557D /* DCOriginalListView.m in Sources */,
+				D1BBEECC1ECAE3D900F2557D /* DCRequestTool.m in Sources */,
+				D1BBEEBC1EC984FB00F2557D /* NSString+DCMD5.m in Sources */,
+				D1BBEEB71EC984FB00F2557D /* DCVideoModel.m in Sources */,
+				D1BBEEBB1EC984FB00F2557D /* DCWaterMarkManager.m in Sources */,
+				D1BBEEB61EC984FB00F2557D /* DCPlayerView.m in Sources */,
+				D1BBEE591EC9442400F2557D /* main.m in Sources */,
+				D1BBEE911EC94CCA00F2557D /* DCCameraVC.m in Sources */,
+				D1BBEE8E1EC94CB800F2557D /* DCAlbumVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BBEE691EC9442400F2557D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BBEE721EC9442400F2557D /* QiniuUpLoadDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BBEE741EC9442400F2557D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BBEE7D1EC9442400F2557D /* QiniuUpLoadDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1BBEE6F1EC9442400F2557D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1BBEE531EC9442400F2557D /* QiniuUpLoadDemo */;
+			targetProxy = D1BBEE6E1EC9442400F2557D /* PBXContainerItemProxy */;
+		};
+		D1BBEE7A1EC9442400F2557D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1BBEE531EC9442400F2557D /* QiniuUpLoadDemo */;
+			targetProxy = D1BBEE791EC9442400F2557D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1BBEE601EC9442400F2557D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1BBEE611EC9442400F2557D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1BBEE651EC9442400F2557D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1BBEE661EC9442400F2557D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1BBEE7F1EC9442400F2557D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1BBEE801EC9442400F2557D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1BBEE821EC9442400F2557D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0011BE0BE0324FA958028BC9 /* Pods-QiniuUpLoadDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J735WF8EB3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QiniuUpLoadDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = QiniuUpLoadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xm.VideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D1BBEE831EC9442400F2557D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2D2CC129B2556BDE44066E /* Pods-QiniuUpLoadDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J735WF8EB3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QiniuUpLoadDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = QiniuUpLoadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xm.VideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D1BBEE851EC9442400F2557D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QiniuUpLoadDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xm.QiniuUpLoadDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiniuUpLoadDemo.app/QiniuUpLoadDemo";
+			};
+			name = Debug;
+		};
+		D1BBEE861EC9442400F2557D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QiniuUpLoadDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xm.QiniuUpLoadDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiniuUpLoadDemo.app/QiniuUpLoadDemo";
+			};
+			name = Release;
+		};
+		D1BBEE881EC9442400F2557D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QiniuUpLoadDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xm.QiniuUpLoadDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QiniuUpLoadDemo;
+			};
+			name = Debug;
+		};
+		D1BBEE891EC9442400F2557D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QiniuUpLoadDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xm.QiniuUpLoadDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QiniuUpLoadDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1BBEE4F1EC9442400F2557D /* Build configuration list for PBXProject "QiniuUpLoadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BBEE7F1EC9442400F2557D /* Debug */,
+				D1BBEE801EC9442400F2557D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1BBEE811EC9442400F2557D /* Build configuration list for PBXNativeTarget "QiniuUpLoadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BBEE821EC9442400F2557D /* Debug */,
+				D1BBEE831EC9442400F2557D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1BBEE841EC9442400F2557D /* Build configuration list for PBXNativeTarget "QiniuUpLoadDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BBEE851EC9442400F2557D /* Debug */,
+				D1BBEE861EC9442400F2557D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1BBEE871EC9442400F2557D /* Build configuration list for PBXNativeTarget "QiniuUpLoadDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BBEE881EC9442400F2557D /* Debug */,
+				D1BBEE891EC9442400F2557D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1BBEE4C1EC9442400F2557D /* Project object */;
+}
